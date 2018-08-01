@@ -1,0 +1,70 @@
+2018-07-20 13:00:58 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: xian)
+2018-07-20 13:00:58 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.5 (default, May 11 2018, 04:00:52) - [GCC 8.1.0], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Linux-4.16.13-2-ARCH-x86_64-with-arch
+2018-07-20 13:00:58 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'xian', 'CONCURRENT_REQUESTS_PER_IP': 40, 'DOWNLOAD_DELAY': 1.5, 'LOG_FILE': 'xian_spider.log', 'NEWSPIDER_MODULE': 'xian.spiders', 'RANDOMIZE_DOWNLOAD_DELAY': False, 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['xian.spiders']}
+2018-07-20 13:00:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-07-20 13:00:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-07-20 13:00:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-07-20 13:00:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['xian.pipelines.XianPipeline']
+2018-07-20 13:00:58 [scrapy.core.engine] INFO: Spider opened
+2018-07-20 13:00:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-07-20 13:00:58 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571334
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571335
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571336
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571337
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571338
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571339
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571340
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571341
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571342
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571343
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571344
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571345
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571346
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571347
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571348
+2018-07-20 13:00:58 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.xseii.com.cn/robots.txt> (referer: None)
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571349
+2018-07-20 13:00:58 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://www.xseii.com.cn/getDtSearchValues> (referer: None)
+2018-07-20 13:00:58 [ev_info] DEBUG: 1571350
+2018-07-20 13:00:59 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://www.xseii.com.cn/getDtSearchValues> (referer: None)
+2018-07-20 13:00:59 [ev_info] DEBUG: 1571351
+2018-07-20 13:01:01 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://www.xseii.com.cn/getDtSearchValues> (referer: None)
+2018-07-20 13:01:01 [ev_info] DEBUG: 1571352
+2018-07-20 13:01:02 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://www.xseii.com.cn/getDtSearchValues> (referer: None)
+2018-07-20 13:01:02 [ev_info] DEBUG: 1571353
+2018-07-20 13:01:04 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://www.xseii.com.cn/getDtSearchValues> (referer: None)
+2018-07-20 13:01:04 [ev_info] DEBUG: 1571354
+2018-07-20 13:01:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://www.xseii.com.cn/getDtSearchValues> (referer: None)
+2018-07-20 13:01:05 [ev_info] DEBUG: 1571355
+2018-07-20 13:01:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://www.xseii.com.cn/getDtSearchValues> (referer: None)
+2018-07-20 13:01:07 [ev_info] DEBUG: 1571356
+2018-07-20 13:01:08 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://www.xseii.com.cn/getDtSearchValues> (referer: None)
+2018-07-20 13:01:08 [ev_info] DEBUG: 1571357
+2018-07-20 13:01:10 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://www.xseii.com.cn/getDtSearchValues> (referer: None)
+2018-07-20 13:01:10 [ev_info] DEBUG: 1571358
+2018-07-20 13:01:10 [scrapy.crawler] INFO: Received SIG_SETMASK, shutting down gracefully. Send again to force 
+2018-07-20 13:01:10 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-07-20 13:01:11 [scrapy.crawler] INFO: Received SIG_SETMASK twice, forcing unclean shutdown

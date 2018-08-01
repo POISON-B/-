@@ -29,8 +29,8 @@ class EvInfoSpider(scrapy.Spider):
             yield scrapy.FormRequest(url=self.url1, formdata=self.payload, callback=self.secondary_request)
 
     def parse(self, response):
-        city = XianCityParser()
-        city.parse(response)
+        city = Factory('xian')
+        city.get_methods().parse()
 
     def secondary_request(self, response):
         print(response.body)

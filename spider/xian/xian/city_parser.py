@@ -10,6 +10,7 @@ from abc import ABCMeta, abstractmethod
 
 from xian.items import XianItem
 
+methods_dict = dict()
 
 class CityParser(object, metaclass=ABCMeta):
 
@@ -36,6 +37,19 @@ class XianCityParser(CityParser):
                 item['address'] = i.xpath('./tbody/tr[8]/td/text()').extract()[0]
 
                 yield item
+
+
+methods_dict['xian'] = XianCityParser()
+
+
+class Factory(object):
+    def __init__(self, key):
+        self.key = key
+
+    def get_methods(self):
+
+        if self.key in methods_dict.keys():
+            return methods_dict[self.key]
 
 
 if __name__ == '__main__':

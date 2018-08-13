@@ -2,9 +2,13 @@
 import scrapy
 import json
 import logging
+from scrapy.xlib.pydispatch import dispatcher
+from scrapy import signals
+
+from selenium import webdriver
 
 from xian.city_parser import *
-
+from xian.middlewares import JsPageMiddle
 
 from xian.uitl import handle_value, COED_ID_1
 
@@ -20,6 +24,15 @@ class EvInfoSpider(scrapy.Spider):
     payload = {
         'regcode': '1571333'
     }
+
+    def __init__(self):
+        self.browser = webdriver.Chrome()
+        super(EvInfoSpider, self).__init__()
+        dispatcher.connect(self.spider_closed, signals.spider_closed)  # scrapy信号量爬虫关闭，关闭浏览器
+
+    def spider_closed(self, spider):
+        print("spider closed")
+        self.browser.quit()
 
     def start_requests(self):
         while self.regcode <= self.code[1]:

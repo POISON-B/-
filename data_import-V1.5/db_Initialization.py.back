@@ -1,0 +1,122 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/5/22 13:36
+# @Author  : shark
+# @Site    : 
+# @File    : db_Initialization.py
+# @Software: PyCharm
+
+"""
+主函数各个功能实现
+"""
+
+from sqlalchemy.orm import *
+from sqlalchemy import *
+from sqlalchemy.ext.automap import automap_base
+from conf import *
+
+
+# 连接数据库
+def connect_db(text_run=True):
+    if text_run:
+        # 使用UTF-8编码连接
+        db_connect = create_engine('mysql+pymysql://' + DB_USER + ':' + DB_PASSWD + '@' + DB_HOST + ':' + DB_PORT
+                                   + '/' + DB_NAME + '?charset=utf8')
+        return db_connect
+
+    else:
+        db_connect = create_engine('mysql+pymysql://' + DB_USER + ':' + DB_PASSWD + '@' + DB_HOST + ':' + DB_PORT
+                                   + '/' + DB_NAME + '?charset=utf8')
+        return db_connect
+
+
+engine = connect_db()  # 连接数据库
+db_session = sessionmaker(bind=engine)  # 创建session工厂
+db_session = db_session()  # 调用工厂方法创建工厂对象
+
+# 映射projectInfo表和获得相关操作
+db_domain_metadata = MetaData(engine)  # 绑定引擎
+Table('projectInfo', db_domain_metadata, autoload=True)
+db_domain_base = automap_base(metadata=db_domain_metadata)  # 映射表
+db_domain_base.prepare()
+db_projectInfo = db_domain_base.classes.projectInfo  # 后跟需要操作的表名
+projectInfo_domain_query = db_session.query(db_projectInfo)  # 查询
+
+# 映射维保公司表和获得相关操作
+db_domain_metadata = MetaData(engine)
+Table('companyinfo', db_domain_metadata, autoload=True)
+db_domain_base = automap_base(metadata=db_domain_metadata)
+db_domain_base.prepare()
+db_Domain = db_domain_base.classes.companyinfo
+db_domain_query = db_session.query(db_Domain)
+
+# 映射地址表获得相关操作
+db_area_metadata = MetaData(engine)
+Table('area', db_area_metadata, autoload=True)
+db_area_base = automap_base(metadata=db_area_metadata)
+db_area_base.prepare()
+db_Area = db_area_base.classes.area
+db_area_query = db_session.query(db_Area)
+
+db_brand_metadata = MetaData(engine)
+Table('brand', db_brand_metadata, autoload=True)
+db_brand_base = automap_base(metadata=db_brand_metadata)
+db_brand_base.prepare()
+db_brand = db_brand_base.classes.brand
+db_brand_query = db_session.query(db_brand)
+
+# 维保单位表
+db_ev_records_metadata = MetaData(engine)
+Table('ev_records', db_ev_records_metadata, autoload=True)
+db_ev_records_base = automap_base(metadata=db_ev_records_metadata)
+db_ev_records_base.prepare()
+db_ev_records = db_ev_records_base.classes.ev_records
+db_ev_records_query = db_session.query(db_ev_records )
+
+# 映射电梯表获得相关操作
+db_ev_metadata = MetaData(engine)
+Table('ev_info', db_ev_metadata, autoload=True)
+db_ev_base = automap_base(metadata=db_ev_metadata)
+db_ev_base.prepare()
+db_Ev = db_ev_base.classes.ev_info
+db_ev_query = db_session.query(db_Ev)
+
+# 映射直梯表获得相关操作
+db_ev_conf_metadata = MetaData(engine)
+Table('ev_verticalLander_conf', db_ev_conf_metadata, autoload=True)
+db_ev_conf_base = automap_base(metadata=db_ev_conf_metadata)
+db_ev_conf_base.prepare()
+db_EvConf = db_ev_conf_base.classes.ev_verticalLander_conf
+db_ev_conf_query = db_session.query(db_EvConf)
+
+# 映射杂物表获得相关操作
+db_esun_conf_metadata = MetaData(engine)
+Table('ev_sundriesLander_conf', db_esun_conf_metadata, autoload=True)
+db_esun_conf_base = automap_base(metadata=db_esun_conf_metadata)
+db_esun_conf_base.prepare()
+db_EsunConf = db_esun_conf_base.classes.ev_sundriesLander_conf
+db_esun_conf_query = db_session.query(db_EsunConf)
+
+# 液压梯表获得相关操作
+db_eh_conf_metadata = MetaData(engine)
+Table('ev_hydraulicPressure_conf', db_eh_conf_metadata, autoload=True)
+db_eh_conf_base = automap_base(metadata=db_eh_conf_metadata)
+db_eh_conf_base.prepare()
+db_EhConf = db_eh_conf_base.classes.ev_hydraulicPressure_conf
+db_eh_conf_query = db_session.query(db_EhConf)
+
+# 映射扶梯表获得相关操作
+db_es_conf_metadata = MetaData(engine)
+Table('ev_escalator_conf', db_es_conf_metadata, autoload=True)
+db_es_conf_base = automap_base(metadata=db_es_conf_metadata)
+db_es_conf_base.prepare()
+db_EsConf = db_es_conf_base.classes.ev_escalator_conf
+db_es_conf_query = db_session.query(db_EsConf)
+
+# 映射年检时间表获得相关操作
+db_ceate_year_time = MetaData(engine)
+Table('ev_annual_inspection', db_ceate_year_time, autoload=True)
+db_year_time_base = automap_base(metadata=db_ceate_year_time)
+db_year_time_base.prepare()
+db_Time = db_year_time_base.classes.ev_annual_inspection
+db_year_time_query = db_session.query(db_Time)

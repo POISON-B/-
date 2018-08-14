@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e2fd008-7224-49b1-a985-916c8077eb3b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/data_import_V1_5$data_matching.coverage" NAME="data_matching Coverage Results" MODIFIED="1532569627073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import$demo.coverage" NAME="demo Coverage Results" MODIFIED="1528967678079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import_V1_5$ev_info_modify.coverage" NAME="ev_info_modify Coverage Results" MODIFIED="1532416932627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import$logs_data.coverage" NAME="logs_data Coverage Results" MODIFIED="1529634233784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import$excel_to_db.coverage" NAME="excel_to_db Coverage Results" MODIFIED="1530239758340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import_V1_5$change_model_number.coverage" NAME="change_model_number Coverage Results" MODIFIED="1533104030897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import_V1_5$excle_to_db.coverage" NAME="excle_to_db Coverage Results" MODIFIED="1534145691896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import_V1_5$demo.coverage" NAME="demo Coverage Results" MODIFIED="1533708716984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import$spider_demo.coverage" NAME="spider_demo Coverage Results" MODIFIED="1529027755497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import__$excel_to_db.coverage" NAME="excel_to_db Coverage Results" MODIFIED="1531380761154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import_V1_5$year_time.coverage" NAME="year_time Coverage Results" MODIFIED="1533611340101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import$logs_data__1_.coverage" NAME="logs_data (1) Coverage Results" MODIFIED="1529636680628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../lib" />
+    <SUITE FILE_PATH="coverage/data_import__$excle_to_db.coverage" NAME="excle_to_db Coverage Results" MODIFIED="1531718377779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import_V1_5$config.coverage" NAME="config Coverage Results" MODIFIED="1532340988842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_import__$Tools_function.coverage" NAME="Tools_function Coverage Results" MODIFIED="1531470153768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tools_function.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tools_function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="48" column="37" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="37" />
+              <folding>
+                <element signature="e#185#198#0" expanded="true" />
+                <element signature="e#12843#13264#0" />
+                <element signature="e#13346#13981#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excle_to_db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/excle_to_db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="250" column="42" selection-start-line="250" selection-start-column="42" selection-end-line="250" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_matching.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_matching.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding>
+                <element signature="e#160#170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="电梯导入模板文件.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv文件/电梯导入模板文件.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regcode_check.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regcode_check.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#159#169#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_Initialization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_Initialization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="74" column="16" selection-start-line="74" selection-end-line="74" selection-end-column="16" />
+              <folding>
+                <element signature="e#183#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2017-10-32</find>
+      <find>洛江区双阳镇西环路11号</find>
+      <find>财政局</find>
+      <find>百乐购</find>
+      <find>通大百货</find>
+      <find>文化产业园</find>
+      <find>实验学校</find>
+      <find>江门市建设三路全球通大厦主楼</find>
+      <find>江门市发展大道238号移动二机楼饭堂</find>
+      <find>江门市杜阮镇杜阮北路一路168号</find>
+      <find>中航物业江门分公司</find>
+      <find>凤凰山1号</find>
+      <find>南京白鹭宾馆</find>
+      <find>2010-07</find>
+      <find>长沙市雨花区振华路519号</find>
+      <find>长沙国际创新城</find>
+      <find>武汉东湖高新物业管理有限公司长沙分公司（长沙国际创新城）</find>
+      <find>1.00</find>
+      <find>0.5</find>
+      <find>香洲百货女人街</find>
+      <find>袁美拉（大角湾宾馆）</find>
+      <find>阳西德锦园地产开发有限公司-锦绣家园                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ,C1,苏州曼隆,乘客电梯,31104417002013050024,M2012-06-0116,,,M2012-06-0116,MEP,,,,,,,2019-03-01,阳西县人民大道北锦绣家园,,,</find>
+      <find>阳西县城人民北路凯旋豪庭</find>
+      <find>乘客电梯</find>
+      <find>载货电梯      ,</find>
+      <find>载货电梯 ,</find>
+      <find>阳江市中冠房地产开发有限公司</find>
+      <find>阳西德锦园地产开发有限公司-锦绣家园</find>
+      <find>袁美拉（大角湾宾馆</find>
+      <find>db_ev_conf_query</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>2009-03-01</replace>
+      <replace>2011-01-01</replace>
+      <replace>2014-05-01</replace>
+      <replace>2009-05-01</replace>
+      <replace>2011-02-01</replace>
+      <replace>武汉东湖高新物业管理有限公司长沙分公司（长沙国际创新城）,15栋1单元东侧1号,奥的斯电梯(中国)有限公司,乘客电梯,31104301112016120004,,奥的斯电梯(中国)有限公司,2016-06-01,R2NQ4505,GeN2 Comfort,曳引驱动,,,,,,,长沙市雨花区振华路519号,,,</replace>
+      <replace>1</replace>
+      <replace>0.5</replace>
+      <replace>153079277804331008</replace>
+      <replace>阳西县御景花园</replace>
+      <replace>阳西县城人民北路凯旋豪庭</replace>
+      <replace>乘客电梯</replace>
+      <replace>载货电梯,</replace>
+      <replace>载货电梯</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.json" />
+        <option value="$PROJECT_DIR$/spider_demo.py" />
+        <option value="$PROJECT_DIR$/cof.py" />
+        <option value="$USER_HOME$/hello world.py" />
+        <option value="$PROJECT_DIR$/logs_data.py" />
+        <option value="$PROJECT_DIR$/../lib/logs_data.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/conf.py" />
+        <option value="$PROJECT_DIR$/excel_to_db.py" />
+        <option value="$PROJECT_DIR$/var/address_json.json" />
+        <option value="$PROJECT_DIR$/var/address.txt" />
+        <option value="$PROJECT_DIR$/var/address.json" />
+        <option value="$PROJECT_DIR$/csv文件/中景公司测试bug用/项目上传模板.csv" />
+        <option value="$PROJECT_DIR$/db_Initialization.py" />
+        <option value="$PROJECT_DIR$/var/log" />
+        <option value="$PROJECT_DIR$/csv文件/湖北京胜电梯工程股份有限公司/重新导入项目.csv" />
+        <option value="$PROJECT_DIR$/csv文件/湖北京胜电梯工程股份有限公司/项目上传文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/湖北京胜电梯工程股份有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/四川三菱美商贸有限公司/项目上传文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/四川三菱美商贸有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/北京燕园图新电梯自动化技术有限公司/电梯导入模板文件1.csv" />
+        <option value="$PROJECT_DIR$/csv文件/北京燕园图新电梯自动化技术有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/错误数据.csv" />
+        <option value="$PROJECT_DIR$/csv文件/徐州市中瀛机电工程有限公司/项目上传文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/徐州市中瀛机电工程有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/北京燕园图新电梯自动化技术有限公司/项目上传文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/江苏省工业设备安装集团有限公司/项目上传文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/江苏省工业设备安装集团有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/泉州市博特电梯有限公司/项目上传文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/泉州市博特电梯有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/广东华富电梯有限公司/项目上传文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/广东华富电梯有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/1.csv" />
+        <option value="$PROJECT_DIR$/regecode.csv" />
+        <option value="$PROJECT_DIR$/ev_info_modify.py" />
+        <option value="$PROJECT_DIR$/data_matching.py" />
+        <option value="$PROJECT_DIR$/csv文件/长沙顺新电梯有限公司/项目上传文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/长沙顺新电梯有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/change_model_number.py" />
+        <option value="$PROJECT_DIR$/csv文件/河南励达电梯有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/广东华富年检时间修改.csv" />
+        <option value="$PROJECT_DIR$/year_time.py" />
+        <option value="$PROJECT_DIR$/csv文件/阳江宝马电梯有限公司/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/csv文件/阳江宝马电梯有限公司/项目上传文件.csv" />
+        <option value="$PROJECT_DIR$/regcode.csv" />
+        <option value="$PROJECT_DIR$/regcode_check.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/csv文件/电梯导入模板文件.csv" />
+        <option value="$PROJECT_DIR$/excle_to_db.py" />
+        <option value="$PROJECT_DIR$/Tools_function.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2048" />
+    <option name="y" value="279" />
+    <option name="width" value="1600" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="data_import-V1.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_import-V1.5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_import-V1.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_import-V1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="csv文件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_import-V1.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_import-V1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="csv文件" type="462c0819:PsiDirectoryNode" />
+              <item name="四川三菱美商贸有限公司" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/zhang/workspace/ttd-operating-tools/data_import/2.txt" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data_import" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/csv文件/北京燕园图新电梯自动化技术有限公司" />
+      <recent name="$PROJECT_DIR$/excle/中景公司测试bug用/已整理上传文件" />
+      <recent name="$PROJECT_DIR$/excle/河南励达电梯有限公司" />
+      <recent name="$PROJECT_DIR$/excle/湖南磊鑫电梯有限公司" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/csv文件/广东华富电梯有限公司" />
+      <recent name="$PROJECT_DIR$/excle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.excle_to_db">
+    <configuration name="change_model_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_import" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/change_model_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="data_matching" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_import" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_matching.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_import" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regcode_check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="excle_to_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_import" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excle_to_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="year_time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_import" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/year_time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.excle_to_db" />
+      <item itemvalue="Python.data_matching" />
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.change_model_number" />
+      <item itemvalue="Python.year_time" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.excle_to_db" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.year_time" />
+        <item itemvalue="Python.change_model_number" />
+        <item itemvalue="Python.data_matching" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e2fd008-7224-49b1-a985-916c8077eb3b" name="Default" comment="" />
+      <created>1528697417361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528697417361</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2048" y="279" width="1600" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39972338" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3277635" visible="true" weight="0.2111399" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32966322" />
+      <window_info id="Structure" order="2" sideWeight="0.6722365" side_tool="true" weight="0.15738343" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38312587" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32473117" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/excel_to_db.py</url>
+          <line>269</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tools_function.py</url>
+          <line>452</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tools_function.py</url>
+          <line>376</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/excle_to_db.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/excle_to_db.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="61" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="ev_info.uuid" />
+        <watch expression="line[4]" language="Python" />
+        <watch expression="project_info.uuid" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>line[4]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Envs/work/lib/python3.6/site-packages/retry/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/湖北京胜电梯工程股份有限公司/重新导入项目.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/湖北京胜电梯工程股份有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/错误数据1.csv" />
+    <entry file="file://$PROJECT_DIR$/csv文件/湖北京胜电梯工程股份有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1252">
+          <caret line="143" selection-start-line="143" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/四川三菱美商贸有限公司/重新导入电梯.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/log.txt" />
+    <entry file="file://$PROJECT_DIR$/csv文件/四川三菱美商贸有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="67" column="12" selection-start-line="67" selection-end-line="67" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/北京燕园图新电梯自动化技术有限公司/电梯导入模板文件1.csv" />
+    <entry file="file://$PROJECT_DIR$/csv文件/徐州市中瀛机电工程有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="4" selection-start-line="14" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/徐州市中瀛机电工程有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="152" column="52" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/北京燕园图新电梯自动化技术有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var_s/address.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3919">
+          <caret line="3383" column="29" selection-start-line="3383" selection-start-column="20" selection-end-line="3383" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/泉州市博特电梯有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/泉州市博特电梯有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="134" lean-forward="true" selection-start-line="6" selection-start-column="134" selection-end-line="6" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/广东华富电梯有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/广东华富电梯有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="122" selection-start-line="122" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/广东华富电梯有限公司/项目冲突.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/广东华富电梯有限公司/错误数据.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/广东华富电梯有限公司/项目不存在.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.csv" />
+    <entry file="file://$PROJECT_DIR$/regcode.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="814" column="15" selection-start-line="814" selection-start-column="15" selection-end-line="829" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.csv" />
+    <entry file="file://$PROJECT_DIR$/csv文件/北京燕园图新电梯自动化技术有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="75" column="47" lean-forward="true" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/江苏省工业设备安装集团有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="16" selection-start-line="4" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/湖南鑫亿电梯有限公司/脚本-电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2420">
+          <caret line="121" column="54" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/江苏省工业设备安装集团有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/长沙顺新电梯有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="963" column="137" selection-start-line="963" selection-start-column="137" selection-end-line="963" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/长沙顺新电梯有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_model_number.py" />
+    <entry file="file://$PROJECT_DIR$/csv文件/河南励达电梯有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/河南励达电梯有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="92" column="66" selection-start-line="92" selection-start-column="66" selection-end-line="92" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/year_time.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/广东华富年检时间修改.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/year_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/错误数据.csv" />
+    <entry file="file://$PROJECT_DIR$/项目冲突.csv" />
+    <entry file="file://$PROJECT_DIR$/项目不存在.csv" />
+    <entry file="file://$PROJECT_DIR$/csv文件/阳江宝马电梯有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="76" column="104" selection-start-line="76" selection-start-column="94" selection-end-line="76" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/阳江宝马电梯有限公司/项目上传文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regcode.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10600">
+          <caret line="530" lean-forward="true" selection-start-line="530" selection-end-line="530" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.csv" />
+    <entry file="file://$PROJECT_DIR$/csv文件/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ev_info_modify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv文件/四川三菱美商贸有限公司/电梯导入模板文件.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#160#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regcode_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#159#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excle_to_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="250" column="42" selection-start-line="250" selection-start-column="42" selection-end-line="250" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_Initialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="74" column="16" selection-start-line="74" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <element signature="e#183#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="37" />
+          <folding>
+            <element signature="e#185#198#0" expanded="true" />
+            <element signature="e#12843#13264#0" />
+            <element signature="e#13346#13981#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

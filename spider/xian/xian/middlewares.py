@@ -6,6 +6,7 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from scrapy.http import HtmlResponse
 
 
 class XianSpiderMiddleware(object):
@@ -101,3 +102,17 @@ class XianDownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+from selenium import webdriver
+
+
+class JsPageMiddle(object):
+
+
+
+    def process_request(self, request, spider):
+        if spider.name == '':
+            # browser = webdriver.Chrome()
+            spider.browser.get(request.url)
+
+            return HtmlResponse(url=spider.browser.current_url, body=spider.browser.page_source, encoding='utf-8', request=request)

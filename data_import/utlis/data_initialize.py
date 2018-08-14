@@ -10,13 +10,15 @@ from os import path
 import codecs
 
 from config import PATH, FILE_PATH, JSON_PATH
-from utlis.db_query import project_address_id_query
-from utlis.utils import get_Lat_lon, address_json, insert_json, project_md5
+# from utlis.db_query import project_address_id_query
+from utlis.data_format import lift_conversion, lift_type_parameter
+# from utlis.db_query import brand_id_query
+from utlis.utils import get_Lat_lon, address_json, insert_json, project_md5, clean_time
 
 
 class ProjectInfo(object):
     def __init__(self):
-        self.project_info_dict = dict()
+        self.project_info_dict = ''
 
     @classmethod
     def project_read(cls, filename):
@@ -51,16 +53,16 @@ class ProjectInfo(object):
                     address_jsons[project_name_md5] = v['ln_la']
 
                 insert_json(address_jsons, JSON_PATH)
-            v = project_address_id_query(v)
+            # v = project_address_id_query(v)
         return data
 
     def info_return(self):
         self.project_info_dict = self.project_info_format()
 
 
-class Lift(object):
+class LiftInfo(object):
     def __init__(self):
-        self.lift_info_dict = dict()
+        self.lift_info_dict = ''
 
     @classmethod
     def lift_info_read(cls, filename):
@@ -68,7 +70,7 @@ class Lift(object):
         data = codecs.open(filename=filename)
         for info in data:
             info = info.split(',')
-            lift_info_dict[info[0]] = {
+            lift_info_dict[info[0] + '+' + str(info[4])] = {
                 'evOrder': info[1],
                 'brandId': info[2],
                 'useFor': info[3],
@@ -79,16 +81,33 @@ class Lift(object):
                 'productionNumber': info[8],
                 'modelNumber': info[9],
                 'actuationForm': info[10],
-                
                 'lastAnnualDate': info[16],
+                'lift_parameter': lift_type_parameter[lift_conversion(info[3])](info)
 
             }
         # print(lift_info_dict)
-        # return lift_info_dict
+        return lift_info_dict
+
+    @classmethod
+    def lift_info_format(cls):
+        data = cls.lift_info_read(FILE_PATH)
+        for k, v in data.items():
+            # v['brandId'] = brand_id_query(v['brandId'])
+            v['useFor'] = lift_conversion(v['useFor'])
+            v['regCode'] = bytes(v['regCode'], encoding="utf8")
+            v['productionDate'] = clean_time(v['productionDate'])
+            v['lastAnnualDate'] = clean_time(v['lastAnnualDate'])
+        # print(data)
+        return data
+
+    def info_return(self):
+        self.lift_info_dict = self.lift_info_format()
 
 
 if __name__ == '__main__':
-    Lift.lift_info_read(FILE_PATH)
-    # A = ProjectInfo()
-    # A.info_return()
-    # print(A.project_info_dict)
+    # a = LiftInfo()
+    # a.info_return()
+    # print(a.__dict__)
+    A = ProjectInfo()
+    A.info_return()
+    print(A.project_info_dict)

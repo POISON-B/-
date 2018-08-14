@@ -22,9 +22,9 @@ ADDRESS_JSON = 'var/address.json'
 CREATE_BY = 'znh'
 SAVE_ID = 50
 PATH = path.dirname(__file__)
-FILE_NAME = '电梯导入模板文件.csv'
+FILE_NAME = '项目上传模板.csv'
 FILE_PATH = '/'.join((PATH, FILE_NAME))
-
+print(FILE_PATH)
 JSON_PATH = '/'.join((PATH, ADDRESS_JSON))
 
 BAIDU_MAP_AK = (
@@ -37,6 +37,47 @@ BAIDU_MAP_AK = (
     '0B8yZIqc4GvE3UCOzUVzHtLCm3sSqlwk',  # myfifi_55 API KEY
     'YNw3saMUSu6jUM7l3jvOL5mhhLukcqcZ'
 )
+
+# 电梯类型，1:直梯, 2：杂物梯, 3:液压梯, 4:扶梯
+
+EV_TYPE_MAP = {
+    '乘客电梯': 1,
+    '特种电梯': 1,
+    '载货电梯': 1,
+    '医用电梯': 1,
+    '车辆电梯': 1,
+    '观光电梯': 1,
+    '餐梯': 1,
+    '自动扶梯与自动人行道': 4,
+    '曳引与强制驱动电梯': 1,
+    '曳引驱动乘客电梯': 1,
+    '液压驱动电梯': 3,
+    '强制驱动载货电梯': 1,
+    '曳引驱动载货电梯': 1,
+    '其它类型电梯': 1,
+    '杂物电梯': 2,
+    '液压乘客电梯': 3,
+    '防爆电梯': 1,
+    '自动扶梯': 4,
+    '自动人行道': 4,
+    '液压载货电梯': 3,
+    '其它': 1,
+    '病床电梯': 1,
+    '': 1
+}
+
+# 电梯类型
+EV_TYPE = {
+        '直梯': 1,
+        '杂物梯': 2,
+        '液压梯': 3,
+        '扶梯': 4
+}
+
+# 电梯驱动方式
+DRIVE_TYPE = {
+    '曳引驱动': 1,
+}
 
 
 def log():

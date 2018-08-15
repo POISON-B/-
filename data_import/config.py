@@ -5,6 +5,7 @@
 # @Site    : 
 # @File    : config.py
 # @Software: PyCharm
+import os
 from os import path
 
 import logging
@@ -15,18 +16,23 @@ DB_NAME = 'ttd'
 DB_USER = 'ttd'
 DB_PASSWD = 'ROOT@mwteck123'
 
-
+PATH = path.dirname(__file__)
 ADDRESS_JSON = 'var/address.json'
-
+JSON_PATH = '/'.join((PATH, ADDRESS_JSON))
 
 CREATE_BY = 'znh'
 SAVE_ID = 50
-PATH = path.dirname(__file__)
-FILE_NAME = '项目上传模板.csv'
+
+
+FILE_NAME = 'data/{0}/项目上传模板.csv'
 FILE_PATH = '/'.join((PATH, FILE_NAME))
 print(FILE_PATH)
-JSON_PATH = '/'.join((PATH, ADDRESS_JSON))
 
+
+# error文件路径
+ERROR_FILE_ROOT = 'error_life/regcode.csv'
+ERROR_FILE_PATH = '/'.join((path.dirname(PATH), ERROR_FILE_ROOT))
+# print(ERROR_FILE_PATH)
 BAIDU_MAP_AK = (
     'O7hgHKGFW4DGh0n8TxaOxOdoiFLnrZGI',  # 公司API KEY
     'W7KW0i88jYz1x0OxX5hZ9VEcHD8sxkcC',  # 吕强API KEY

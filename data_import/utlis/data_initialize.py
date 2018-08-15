@@ -5,14 +5,11 @@
 # @Site    : 
 # @File    : data_initialize.py
 # @Software: PyCharm
-from os import path
-
 import codecs
 
-from config import PATH, FILE_PATH, JSON_PATH
-# from utlis.db_query import project_address_id_query
+from config import PATH, FILE_PATH, JSON_PATH, EV_TYPE
 from utlis.data_format import lift_conversion, lift_type_parameter
-# from utlis.db_query import brand_id_query
+from utlis.db_query import brand_id_query, project_address_id_query
 from utlis.utils import get_Lat_lon, address_json, insert_json, project_md5, clean_time
 
 
@@ -35,8 +32,8 @@ class ProjectInfo(object):
         return project_info_dict
 
     @classmethod
-    def project_info_format(cls):
-        data = cls.project_read(FILE_PATH)
+    def project_info_format(cls, name):
+        data = cls.project_read(FILE_PATH.format(name))
         for k, v in data.items():
             project_name_md5 = project_md5(k + v['project_province'])
             address_jsons = address_json(JSON_PATH)
@@ -53,7 +50,7 @@ class ProjectInfo(object):
                     address_jsons[project_name_md5] = v['ln_la']
 
                 insert_json(address_jsons, JSON_PATH)
-            # v = project_address_id_query(v)
+            v = project_address_id_query(v)
         return data
 
     def info_return(self):
@@ -92,7 +89,7 @@ class LiftInfo(object):
     def lift_info_format(cls):
         data = cls.lift_info_read(FILE_PATH)
         for k, v in data.items():
-            # v['brandId'] = brand_id_query(v['brandId'])
+            v['brandId'] = brand_id_query(v['brandId'])
             v['useFor'] = lift_conversion(v['useFor'])
             v['regCode'] = bytes(v['regCode'], encoding="utf8")
             v['productionDate'] = clean_time(v['productionDate'])

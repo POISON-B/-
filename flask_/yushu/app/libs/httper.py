@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+# !/usr/bin/python3
 # -*- coding: utf-8 -*-
 # @Time    : 18-8-9 下午10:32
 # @Author  : Shark

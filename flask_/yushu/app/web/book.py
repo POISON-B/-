@@ -23,7 +23,6 @@ def search():
     :param page:
     :return:
     """
-
     form = SearchForm(request.args)
     books = BookCollection()
 

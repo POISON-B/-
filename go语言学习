@@ -1,0 +1,23 @@
+go语言学习
+
+go变量定义
+
+var 变量名 变量类型(可省略)
+
+变量名 := 值 (此种定义方法只可在函数里使用) 
+
+go内建变量类型
+
+bool string
+
+(u)int (u)int8 (u)int16 (u)int32 (u)int64 uintptr(自增)
+
+byte rune()
+
+float32 float64 com[le64 complex128(复数)
+
+go常量定义
+
+const 常量名  类型 = 值
+
+枚举常量 常量名 = iote (表示自增)

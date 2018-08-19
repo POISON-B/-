@@ -1,0 +1,11 @@
+--index https://pypi.douban.com/simple/
+requests
+flask
+Flask-SQLAlchemy
+SQLAlchemy
+Flask-Migrate
+flask_script
+PyMySQL
+alembic
+uwsgi
+flask-cors

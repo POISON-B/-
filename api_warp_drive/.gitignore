@@ -1,0 +1,7 @@
+.idea/
+__pycache__
+log.ini
+uwsgi.ini
+common.ini
+var/
+migrations
